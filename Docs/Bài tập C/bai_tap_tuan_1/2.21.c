@@ -3,8 +3,11 @@
 #include<conio.h>
 main()
 {
+	// Nhap mang
 	int array[1000];
-	int i=1,max,min,size;
+	// Nhap bien dieu khien i, max, min, size cua mang
+	int i,max,min,size;
+	// Nhap gia tri cua mang
 	for(i=0;i<1000;i++)
 	{
 		printf(" nhap gia tri cua n%i=",i);
@@ -15,7 +18,10 @@ main()
 	}
 	max=array[0];
 	min=0;
+	// Tinh so gia tri trong mang
+	// Sizeof cua mang chia cho sizeof cua 1 bien 
 	size = sizeof(array)/sizeof(array[0]);
+	// Tim gia tri MAX va MIN
 	for(i=1;i<=size;i++)
 	{
 		if(array[i]<min)
