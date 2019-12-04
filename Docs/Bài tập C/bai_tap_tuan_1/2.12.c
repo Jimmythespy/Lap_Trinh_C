@@ -1,25 +1,30 @@
+/* DE BAI: tinh gia tri gia thua cua so so nguyen duong bat ky
+*/
+
 #include<stdio.h>
 #include<conio.h>
 #include<math.h>
 
-main()
+int main()
 {
+	// Nhap gia tri cua so nguyen a
+	// Gia thua la S
+	// i la bien dieu khien
 	int a,S=1,i;
-	fflush(stdin);
-	printf("\t-Nhap gia tri cua a trong bieu thuc n!");
-	printf("\n\t-Gia tri cua a=");
+	printf(" Nhap gia tri cua a trong bieu thuc n!");
+	printf("\n Gia tri cua a=");
 	scanf("%d",&a);
-	if(a>8)
+	// Kiem tra dieu kien cua a, a>0
+	if(a<0)
 	{
-		printf("\n\t-n Khong hop le");
+		printf("\n n Khong hop le");
 		return 0;
-		getch();
 	}
 	else
+	// Tinh gia tri cua gia thua
 	for(i=1;i<a;i++)
 		S=S*i;
-	printf("\n\t-gia tri cua S=%d",S);
-
+	printf("\n gia tri cua S=%d",S);
 	getch();
 }
 
