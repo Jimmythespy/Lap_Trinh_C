@@ -1,14 +1,14 @@
 # ENUMERATION trong C:
 ----------------------------
-- Từ khóa enum trong C được sử dụng để khai báo một loại enumeration, loại enumeration là một kiểu dữ liệu đặc biệt được dùng định nghĩa trong C. Từ khóa enum cho ta một công cụ để đặt tên một tập hợp hữu hạn và khai báo các định danh (identifier) trong một tập hợp.
+Từ khóa enum trong C được sử dụng để khai báo một loại enumeration, loại enumeration là một kiểu dữ liệu đặc biệt được dùng định nghĩa trong C. Từ khóa enum cho ta một công cụ để đặt tên một tập hợp hữu hạn và khai báo các định danh (identifier) trong một tập hợp.
 
-- Syntax: 
+Syntax: 
 
  khai báo một enum: enum enum_name {const 1, const 2, const 3.....};
  
  khai bóa biến mang kiểu enum: enum enum_name (indentifier);
  
-- Từ khóa:
+Từ khóa:
 
 enum enum_name: a data type.
 
